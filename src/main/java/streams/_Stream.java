@@ -32,7 +32,7 @@ public class _Stream {
                 .noneMatch(personPredicate);
 
         System.out.println(containsOnlyFemales);
-        
+
     }
 
     public static class Person {
