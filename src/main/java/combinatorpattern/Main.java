@@ -20,7 +20,6 @@ public class Main {
 
 //         valid customer = true , store customer in db.
 
-
         // Using combinator pattern
         ValidationResult result = isEmailValid()
                 .and(isPhoneValid())
